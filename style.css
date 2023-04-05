@@ -1,0 +1,70 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: #2a2e2e;
+}
+.outer-frame{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-frame{
+    width: 350px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1b1c;
+    border-radius: 10px;
+}
+#user-logo, #pass-logo{
+    vertical-align: middle;
+    margin: 10px 0;
+    color: wheat;
+    background-color: #414747;
+    height: 28px;
+    width: 30px;
+    border-radius: 5px 0 0 5px;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+.password-frame #pass-logo{
+    font-size: 24px;
+}
+.login-button{
+    width: 210px;
+    background-color: #f54e99;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#username, #password{
+    height: 30px;
+    width: 170px;
+    background-color: #414747;
+    border-radius: 0 5px 5px 0px;
+    border: none;
+}
+#username:focus, #password:focus{
+    outline: none;
+}
+p{
+    color: #6e6669;
+}
+p a, h2{
+    color: wheat;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    text-decoration: underline;
+    transform-origin: left;
+}
